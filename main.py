@@ -18,7 +18,7 @@ load_dotenv()
 st.title("Document Q&A with Chart Recognition")
 
 # Groq API Key and LLM setup
-groq_api_key = os.getenv('GROQ_API_KEY')
+groq_api_key = "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"
 llm = ChatGroq(
     temperature=0.4,
     groq_api_key=groq_api_key,
