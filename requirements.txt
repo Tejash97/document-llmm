@@ -11,3 +11,4 @@ pypdf
 google-cloud-aiplatform>=1.38
 pymupdf
 unstructured
+sentence_transformers
